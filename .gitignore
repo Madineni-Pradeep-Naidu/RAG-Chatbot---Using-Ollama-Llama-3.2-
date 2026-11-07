@@ -1,0 +1,56 @@
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test Files
+test_ollama.py
+
+# Uploaded Documents
+uploads/
+data/
+
+# Vector Database / Generated Embeddings
+faiss_index/
+vectorstore/
+chroma_db/
+
+# Model Files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Temporary Files
+*.tmp
+*.bak
+vector_db/
